@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Overpass Mono
+- Font Author: undefined
+- Font Source: https://fonts.gstatic.com/s/overpassmono/v16/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EWKokzzXur-SmIr.ttf
+- Font License: undefined)

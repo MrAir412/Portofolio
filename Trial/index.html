@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Daniel-Mihai Badea</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Itim&family=Lobster&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+</head>
+<body>
+    <!-- Navbar -->
+
+        <nav id="menu">
+            <input type="checkbox" id="responsive-menu" onclick="updatemenu()"><label></label>
+            <ul class="nav-links">
+                <li><a href="#about">About me</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#skills">Skills
+                </a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    <section id="hero">
+        <div class="hero-content">
+            <a href="https://github.com/MrAir412" a target=”_blank”> <img src="Github_button.png" alt="" class="pictur"></a>
+            <a href="https://linkedin.com/in/daniel-mihai-badea-364162248" target=”_blank”> <img src="Linkedinb.png" alt="" class="pictur2"></a>
+            <br>
+            <a href="#portfolio" class="btn">Press here to view my work</a>
+        </div>
+    </section>
+
+   
+    <section id="about">
+        <br>
+        <h2>About Me</h2>
+        <p>My name is Daniel-Mihai Badea and I am an aspiring Software Developer with a passion for coding and a 
+            background in IT where I have acquired a lot of technical and troubleshooting skills. Throughout 
+            this period, I discovered a strong passion for coding and programming, which has led me to pursue a career in the industry.
+            </p>
+            <br>
+           <p> I am currently finishing a Skill Bootcamp in Software Development with Just IT which has enabled me to build on my skills and prepare me for a transition into a Software development career. I am currently exploring opportunities that can connect my passion for programming and coding with my experience and skill set in IT.
+        </p>
+    </section>
+
+ <!-- Projects -->
+    <section id="portfolio">
+        <br>
+        <h2>My Work</h2>
+        <div class="portfolio-grid">
+            <a href="https://mrair412.github.io/project/" class="portfolio-item" target=”_blank”>
+                <img src="../Trial/Project.1.png" alt="Project Image" id="">
+                <h3>Gum web page</h3>
+                <p>This was my first project in which I tried making a web page similar of another page using only HTML and CSS</p>
+            </a>
+            <a href="https://mrair412.github.io/Project---rock-paper-scissors/" class="portfolio-item" target=”_blank”>
+                <img src="../Trial/Project.2.png" alt="Project Image">
+                <h3>Rock Paper Scrissors</h3>
+                <p>This project was me making a rock paper scrissors game, in this project I worked more on the JavaScript and the functionality of the game rather than how it looked</p>
+            </a>
+            <a href="https://github.com/MrAir412/Quiz-project" class="portfolio-item" target=”_blank”>
+                <img src="../Trial/Project.3.png" alt="Project Image">
+                <h3>Quiz made using Python and MySQL</h3>
+                <p>In this project I made a quiz within Python that was using a MySQL Data base for the questions within it and all of them linked within a simple HTML website</p>
+            </a>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="skills">
+            <h1>From the bootcamp I attended over the course of 3 months, I have learned the following</h1>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <img src="html-5.png" alt="HTML Icon">
+                    <h2>HTML</h2>
+                </div>
+                <div class="skill-item">
+                    <img src="css-3.png" alt="CSS Icon">
+                    <h2>CSS</h2>
+                </div>
+                <div class="skill-item">
+                    <img src="js.png" alt="JavaScript Icon">
+                    <h2>JavaScript</h2>
+                </div>
+                <div class="skill-item">
+                    <img src="python.png" alt="Python Icon">
+                    <h2>Python</h2>
+                </div>
+                <div class="skill-item">
+                    <img src="mysql.png" alt="MySQL Icon">
+                    <h2>MySQL</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <iframe src="https://replit.com/@mihaimihai412/Quiz?embed=true" width="600" height="400"></iframe> -->
+
+   <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formsubmit.co/mihai_mihai412@yahoo.com" method="POST"> 
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="hidden" name="_subject" value="Portfolio email!">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Daniel-Mihai Badea's portofolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
